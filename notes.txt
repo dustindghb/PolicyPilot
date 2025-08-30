@@ -1,1 +1,5 @@
 http://localhost:5678/
+
+conditions[publication_date][gte]
+
+={{ $now.minus({days: 7}).format('yyyy-MM-dd') }}
